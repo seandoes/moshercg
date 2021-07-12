@@ -31,11 +31,11 @@ en: &DEFAULT_EN
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
-  portfolio:
-    title: "Portfolio"
+  posts:
+    title: "Posts"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+    section: posts
+    closebutton: "Close Post"
 
   timeline:
     title: "About"
