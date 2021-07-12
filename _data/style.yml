@@ -1,7 +1,7 @@
 #Color Customization
-#highlight: "#54bfff"
-#white: "#FF0000"
-#black: "#000"
+highlight: "#2874A6"
+# white: "#FF0000"
+# black: "#313639"
 
 #Image Customization
 header-image: "../img/header-bg.jpg"
