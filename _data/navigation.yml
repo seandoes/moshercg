@@ -18,7 +18,7 @@ en: &DEFAULT_EN
     - title: "Team"
       section: team
     - title: "Posts"
-      section: posts
+      section: portfolio
     - title: "Contact"
       section: contact
     # - title: "Theme Source"
