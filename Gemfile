@@ -6,11 +6,11 @@ source "https://rubygems.org"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-remote-theme"
+  # gem "jekyll-remote-theme"
 end
 
 # theme https://github.com/raviriley/agency-jekyll-theme/
-gem "jekyll-agency"
+# gem "jekyll-agency"
 
 # Delete the following lines if not on Windows: 
 # Performance-booster for watching directories on Windows
