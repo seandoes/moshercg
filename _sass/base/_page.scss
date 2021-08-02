@@ -69,3 +69,8 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+// TODO move this to elemnents.scss?
+ol strong {
+  display: block;
+}
