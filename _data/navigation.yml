@@ -1,18 +1,21 @@
 nav:
-  - title: "Services"
+  - title: "The MCG Way"
     section: services
 
-  - title: "Portfolio"
-    section: portfolio
-    
-  - title: "About"
-    section: timeline
+  - title: "Who MCG Helps"
+    section: clients
 
-  - title: "Team"
+  - title: "Values"
+    section: values
+    
+  # - title: "About"
+  #   section: about
+
+  - title: "Meet Joe"
     section: team
 
   - title: "Contact"
     section: contact
 
-  - title: "Theme Source"
-    url: https://github.com/raviriley/agency-jekyll-theme/
+  # - title: "Theme Source"
+  #   url: https://github.com/raviriley/agency-jekyll-theme/

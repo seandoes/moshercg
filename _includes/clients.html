@@ -1,14 +1,42 @@
 <!-- Clients -->
   <section class="py-5" id="{{ site.data.sitetext.clients.section | default: "clients" }}">
     <div class="container">
-      <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
-	  {% for client in site.data.sitetext.clients.list %}
+      <!-- <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}> -->
+	  <!-- {% for client in site.data.sitetext.clients.list %}
         <div class="col-md-3 col-sm-6">
           <a href="{{ client.url }}">
             <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: "100px" }}">
           </a>
         </div>
-	  {% endfor %}
+	  {% endfor %} -->
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.clients.title | default: "Clients" }}</h2>
+        MCG works with small- and middle-market businesses across several industries including, but not limited to:
+          <ul>
+            <li>Agri-Business (Grain Handling &amp; Processing)</li>
+            <li>Animal Feed Production</li>
+            <li>Food Production &amp; Processing</li>
+            <li>Light Industrial Manufacturing</li>
+            <li>Component and Original Equipment Manufacturing</li>
+          </ul>
+        Examples of past client projects:
+        <ul>
+          <li>Improved the prioritization and execution of $50M in annual capital investment following the design and launch of an enterprise Portfolio Management Office (PMO).</li>
+          <li>Increased employee retention and manufacturing performance through implementation of a multi-site HR transformation strategy impacting more than 3,000 associates.</li>
+          <li>Realized 25% process efficiency gains and cost reductions of $2.4M following the deployment of a comprehensive risk assurance program and digitalization strategy.</li>
+        </ul>
+        Successful clients are those share MCG’s values and exhibit the following characteristics:
+        <ul>
+          <li>They have the learning and strategic agility to try new ways of working.</li>
+          <li>They have an adaptive organizational culture and demonstrated appetite for change.</li>
+          <li>They have their sights set on growth and are willing to invest in capabilities to fuel it.</li>
+          <li>They have decision rights and are willing to use them.</li>
+          <li>They have a bias for action and are willing to take calculated risks.</li>
+          <li>They have the confidence to trust the process: build pragmatically, apply rigorously, and challenge productively.</li>
+        </ul>
       </div>
+    </div>
+      <!-- </div> -->
     </div>
   </section>

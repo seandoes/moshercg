@@ -1,8 +1,14 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: Strategy Execution, Accelerated.
+    text: "Do you have a vision for your company and a strategy for growth, but the business is struggling
+to execute?
+I help leaders like you solve the big problems that are getting in the way. Problems that impede
+growth, mute performance, and diminish results.
+I work with you to rescue value held hostage by dated or undersized business processes and
+operating models. Together we unlock your business’ capacity to execute.
+Ready to build the capabilities you need to deliver the results you want?"
+    button: Let's talk
+    buttonlink: "#contact"
 
 services:
     title: "Services"
@@ -61,52 +67,56 @@ about:
     text: "our story"
     section: about
 
+values:
+    title: "MCG Core Values"
+    section: values
+
 clients:
     section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+    title: "Who MCG Helps"
+    # max-height: 100px
+    # horizontal-scrolling: "" #"yes/no"
+    # list:
+    #   - title: "envato"
+    #     url: https://github.com/raviriley/agency-jekyll-theme
+    #     logo: assets/img/clients/envato.jpg
+    #   - title: "designmodo"
+    #     url: https://github.com/raviriley/agency-jekyll-theme
+    #     logo: assets/img/clients/designmodo.jpg
+    #   - title: "themeforest"
+    #     url: https://github.com/raviriley/agency-jekyll-theme
+    #     logo: assets/img/clients/themeforest.jpg
+    #   - title: "Creative Market"
+    #     url: https://github.com/raviriley/agency-jekyll-theme
+    #     logo: assets/img/clients/creative-market.jpg
     
 team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Meet Joe"
+    text: "The Mosher Consulting Group is my commitment to supporting the sustainable growth and success of this sector of the economy."
+    subtext: "Over more than two decades, I have had the good fortune to build a challenging and diversified
+career with experiences in management consulting, plant op\erations, process improvement,
+internal process control auditing, global risk and assurance leadership, and driving large-scale
+change. These opportunities included serving in both individual contributor and management
+roles of large multi-site and globally distributed teams.
+Most recently from 2008 to 2021, I held senior roles at Cargill, Inc., a privately held firm serving
+food, agriculture, financial, and industrial customers with more than 1,200 facilities across nearly
+70 countries.
+I hold a bachelor’s in political science specializing in economic development, and a master’s in
+human resource development with a specialization in organization development, from the
+University of Minnesota, Twin Cities.
+Mosher Consulting Group (plus logo?)
+I founded Mosher Consulting Group on the operating thesis that extending access to strategy
+execution advisory services beyond large firms and multinationals addresses an unmet need in
+the market.
+Small- and middle-market businesses are essential to a growing and prosperous U.S. economy,
+yet they disproportionately suffer from economic slowdowns and downturns.
+From tightened liquidity, inflationary pressure, supply chain disruption, energy fluctuation, or
+market corrections that depress consumer and industrial spending, the impact to businesses is
+not evenly distributed."
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "Joe Mosher"
+        role: "TODO ADD ROLE"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
