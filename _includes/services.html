@@ -3,27 +3,55 @@
     <div class="container">
 	
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <!-- <div class="col-lg-12 text-center"> -->
+        <div class="col-lg-12">
           <h2 class="section-heading text-uppercase">{{ site.data.sitetext.services.title | default: "Services" }}</h2>
-          {% if site.data.sitetext.services.text %}
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.services.text }}</h3>
-		  {% endif %}
+          <!-- {% if site.data.sitetext.services.text %}
+		      <h3 class="section-subheading text-muted">{{ site.data.sitetext.services.text }}</h3>
+		      {% endif %} -->
+		      <p class="section-subheading text-muted">
+            Start with the outcome you want and execute with the discipline you need.
+          </p>
+          <p class="section-subheading text-muted">
+            As a leader in your business, you have a vision for the future and a strategy to get there but
+            getting traction and creating real movement can be elusive.
+          </p>
+          <p class="section-subheading text-muted">
+            The goal is simple: to help you better execute your strategy in pursuit of improving performance,
+            creating value, and delivering strong results. MCG digs in to help you identify the barriers to
+            change and the pressing challenges standing in the way.
+            </p>
+          <p class="section-subheading text-muted">
+            Whether the challenge is increasing manufacturing capacity and output efficiency, improving the
+            prioritization and deployment of capital investments, exploring new operating models, optimizing
+            working capital, or boldly transforming the organization, The MCG Way delivers.
+            The MCG Way is built upon a foundation of Core Values, Process, and Approach.
+          </p>
         </div>
       </div>
 	  
-      <div class="row text-center">
-	  {% for service in site.data.sitetext.services.list %}
+      <div class="row">
+      <!-- {% for service in site.data.sitetext.services.list %}
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">{{ service.title | markdownify }}</h4>
+            {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+          </div>
+      {% endfor %} -->
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <h4 class="service-heading text-center">Values</h4>
+          <span class="text-center fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
-	  {% endfor %}
+        <div class="col-md-8">
+          {% include values.html %}
+        </div>
       </div>
-	  
     </div>
   </section>
 <!-- End Services -->
