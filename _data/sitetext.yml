@@ -117,7 +117,7 @@ not evenly distributed."
     people:
       - name: "Joe Mosher"
         role: "TODO ADD ROLE"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/joe_headshot.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
