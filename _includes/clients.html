@@ -1,5 +1,5 @@
 <!-- Clients -->
-  <section class="py-5" id="{{ site.data.sitetext.clients.section | default: "clients" }}">
+  <section class="page-section" id="{{ site.data.sitetext.clients.section | default: "clients" }}">
     <div class="container">
       <!-- <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}> -->
 	  <!-- {% for client in site.data.sitetext.clients.list %}
@@ -10,9 +10,9 @@
         </div>
 	  {% endfor %} -->
     <div class="row">
-      <div class="col-lg-8 mx-auto">
+      <div class="col-lg-12">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.clients.title | default: "Clients" }}</h2>
-        MCG works with senior leaders, executives, and ownership small- and middle-market businesses across several industries including, but not limited to::
+        MCG works with senior leaders, executives, and ownership small- and middle-market businesses across several industries including, but not limited to:
         <ul>
           <li>Agri-Business (Grain Handling &amp; Processing)</li>
           <li>Animal Feed Production</li>
@@ -20,12 +20,16 @@
           <li>Light Industrial Manufacturing</li>
           <li>Component and Original Equipment Manufacturing</li>
         </ul>
-        Past client successes include:
-        <ul>
-          <li>Improved prioritization and execution of $50M in annual capital investment following design and launch of enterprise Portfolio Management Office (PMO).</li>
-          <li>Increased retention and manufacturing performance of more than 2,500 production associates following design and implementation of multi-site HR transformation.</li>
-          <li>Realized 25% process efficiency gains and annualized cost savings of $2.4M following deployment of a comprehensive risk assurance program and digitalization strategy.</li>
-        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <span class="text-center fa-stack fa-8x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="{{ service.icon | default: "fas fa-user-check" }} fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+      <div class="col-md-8">
         Successful clients are those share MCG’s values and exhibit the following characteristics:
         <ul>
           <li>They have the learning and strategic agility to try new ways of working.</li>

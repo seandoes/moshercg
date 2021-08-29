@@ -12,18 +12,20 @@ header.masthead {
     padding-bottom: 100px;
     .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
+      // font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
       @include serif-font;
     }
     .intro-heading {
       padding: 20px;
-      background-color: #0d0d0d;
+      background-color: #c7c7c7;
+      color: #0d0d0d;
+      border: 4px solid #f27405;
+      border-radius: 2px;
       opacity: 0.76;
       backdrop-filter: blur(4px);
       text-align: left;
-      border-radius: 4px;
       -webkit-backdrop-filter: blur(200px);
       font-size: 20px;
       font-weight: 700;
@@ -43,7 +45,7 @@ header.masthead {
       padding-bottom: 200px;
       .intro-lead-in {
         font-size: 44px;
-        font-style: italic;
+        // font-style: italic;
         // line-height: 40px;
         margin-bottom: 25px;
         @include serif-font;
