@@ -5,8 +5,8 @@ nav:
   - title: "Who MCG Helps"
     section: clients
 
-  - title: "Values"
-    section: values
+  # - title: "Values"
+  #   section: values
     
   # - title: "About"
   #   section: about

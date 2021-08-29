@@ -30,6 +30,8 @@
         </div>
       </div>
 	  
+      <!-- TODO these sections could probably be a loop -->
+      <!-- Values -->
       <div class="row">
       <!-- {% for service in site.data.sitetext.services.list %}
           <div class="col-md-4">
@@ -41,17 +43,46 @@
             {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
           </div>
       {% endfor %} -->
-        <div class="col-md-4">
-          <h4 class="service-heading text-center">Values</h4>
-          <span class="text-center fa-stack fa-4x">
+        <div class="col-md-4 text-center">
+          <h4 class="service-heading">{{ site.data.sitetext.values.title | default: "Values" }}</h4>
+          <span class="text-center fa-stack fa-8x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            <i class="{{ service.icon | default: "fas fa-compass" }} fa-stack-1x fa-inverse"></i>
           </span>
         </div>
         <div class="col-md-8">
           {% include values.html %}
         </div>
       </div>
+      <!-- End Values -->
+      <!-- Process -->
+      <div class="row">
+          <div class="col-md-4 text-center">
+            <h4 class="service-heading">{{ site.data.sitetext.process.title | default: "Process" }}</h4>
+            <span class="text-center fa-stack fa-8x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ service.icon | default: "fas fa-cogs" }} fa-stack-1x fa-inverse"></i>
+            </span>
+          </div>
+          <div class="col-md-8">
+            {% include process.html %}
+          </div>
+        </div>
+        <!-- End Process -->
+        <!-- Approach -->
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <h4 class="service-heading">{{ site.data.sitetext.approach.title | default: "Approach" }}</h4>
+            <span class="text-center fa-stack fa-8x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ service.icon | default: "fas fa-list-alt" }} fa-stack-1x fa-inverse"></i>
+            </span>
+          </div>
+          <div class="col-md-8">
+            {% include approach.html %}
+          </div>
+        </div>
+      <!-- End Approach -->
     </div>
   </section>
 <!-- End Services -->

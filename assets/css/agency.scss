@@ -23,6 +23,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "components/client-scroll.scss";
 
 // Layout
+@import "layout/general.scss";
 @import "layout/masthead.scss";
 @import "layout/services.scss";
 @import "layout/portfolio.scss";
