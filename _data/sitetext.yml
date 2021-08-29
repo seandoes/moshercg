@@ -11,7 +11,7 @@ Ready to build the capabilities you need to deliver the results you want?"
     buttonlink: "#contact"
 
 services:
-    title: "Services"
+    title: "The MCG Way"
     text: "Lorem ipsum"
     section: services
     list:
@@ -70,6 +70,14 @@ about:
 values:
     title: "MCG Core Values"
     section: values
+
+process:
+    title: "MCG Process"
+    section: process
+
+approach:
+    title: "MCG Approach"
+    section: approach
 
 clients:
     section: clients
