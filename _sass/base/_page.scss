@@ -30,7 +30,10 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0;
+  padding: 50px 0;
+  &:first-of-type {
+    padding-top: 100px;
+  }
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
