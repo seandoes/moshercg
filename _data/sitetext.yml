@@ -97,17 +97,13 @@ clients:
     
 team:
     title: "Meet Joe"
-    text: "The Mosher Consulting Group is my commitment to supporting the sustainable growth and success of this sector of the economy."
-    subtext: "Over more than two decades, I have had the good fortune to build a challenging and diversified
-career with experiences in management consulting, plant op\erations, process improvement,
-internal process control auditing, global risk and assurance leadership, and driving large-scale
-change. These opportunities included serving in both individual contributor and management
-roles of large multi-site and globally distributed teams.
+    text:
+    subtext: "Over more than two decades, I have had the good fortune to build a challenging and diversified career in agribusiness with experiences in management consulting, plant operations, process improvement, internal process control auditing, global risk and assurance.
 Most recently from 2008 to 2021, I held senior roles at Cargill, Inc., a privately held firm serving
 food, agriculture, financial, and industrial customers with more than 1,200 facilities across nearly
 70 countries.
 I hold a bachelor’s in political science specializing in economic development, and a master’s in organization development, from the
-University of Minnesota, Twin Cities."
+University of Minnesota, Twin Cities. The Mosher Consulting Group is my commitment to supporting the sustainable growth and success of this sector of the economy."
     aboutMcg: "I founded Mosher Consulting Group on the operating thesis that extending access to strategy
 execution advisory services beyond large firms and multinationals addresses an unmet need in
 the market.
