@@ -18,7 +18,7 @@ url    : "" # the base hostname & protocol for your site, e.g. http://example.co
 baseurl: "/moshercg" # the subpath of your site, e.g. /blog
 
 title      : Mosher Consulting Group
-email      : sdoesimkins@gmail.com #this is also the email contact forms will go to
+email      : info@moshercg.com #this is also the email contact forms will go to
 description: "Mosher Consulting Group"
 author     : Joseph Mosher
 logo:     #optional, defaults to site title
