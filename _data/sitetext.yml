@@ -1,145 +1,208 @@
 header:
-    title: Strategy Execution, Accelerated.
-    text: "Do you have a strategy for growth, but the business is struggling to execute?
-I help leaders like you solve the big problems that are getting in the way. Problems that impede
-growth, mute performance, and diminish results.
-Ready to build the capabilities you need to deliver the results you want?"
-    button: Let's talk
-    buttonlink: "#contact"
+  title: "We help food &amp; agribusiness leaders de-risk M&amp;A strategy and exceed their growth goals"
+
+why:
+  title: "Why Work with Us?"
+  section: why
+  list:
+    - copy: "As experienced M&A integration veterans, we help food and agribusiness companies successfully execute strategy to:"
+      image: assets/img/6-Explanation Paragraph.png
+      list:
+        - point: Achieve growth objectives and lead the market
+        - point: Create greater trust and alignment among their leadership team
+        - point: Set their people up for future success
+        - point: Preserve company core values and culture during periods of high growth
+        - point: Be a respected member of their industry and community
+    - copy: "We handle the entire process. From:"
+      image: assets/img/Explanation Paragraph (2).png
+      numbered: true
+      list:
+        - point: Design of your integration operating model and performance metrics
+        - point: Clarity around customer requirements for integration success
+        - point: Definition of your Minimum Viable Integration
+        - point: Development of your integration plan (objectives, tasks, resources, timelines)
+        - point: Tech-enabled integration plan project management and real-time monitoring dashboards
+    - copy: |
+        What separates us is that we understand what it's like to live within the four walls of a business. We know what it's like to see all the opportunities available yet struggle to execute as they seem out of reach. We know you need action, not theory or tactics from a consultant.
+
+        Not only do we help with your M&A integration, we help you drive growth by:
+      image: assets/img/3-Guide.png
+      list:
+        - point: Transforming your firm's operating model
+        - point: Highlighting where to improve your business process effectiveness
+        - point: Identifying opportunities to enhance performance through organizational design
+        - point: Developing processes to ensure your investment planning reflects your strategy
+        - point: Building the capability to know you are doing the right projects and doing them the right way
 
 services:
-    title: "The MCG Way"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+  title: "Our Core Values"
+  text: "Lorem ipsum"
+  section: services
+  list:
+    - title: "E-Commerce"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+    - title: "Responsive Design"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon: fas fa-laptop
+    - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      desc: "Your description here, full **Markdown** support"
+      icon: fab fa-markdown
 
 portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    
+  title: "Portfolio"
+  text: "Lorem ipsum dolor sit amet consectetur."
+  section: portfolio
 
 timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
-    section: timeline
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt: 
-        align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt: 
-        align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+  title: "About"
+  text: "Lorem ipsum timeline"
+  section: timeline
+  events:
+    - title: "Our Humble Beginnings"
+      year: "2009-2011"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      image: assets/img/timeline/1.jpg
+      alt:
+      align: left
+    - title: "An Agency is Born"
+      year: "March 2011"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      image: assets/img/timeline/2.jpg
+      alt:
+      align: right
+    - title: "Jekyll Theme is created"
+      year: "2019"
+      desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      image: assets/img/timeline/3.jpg
+      alt: image alt text
+      #align: #default is left
+    - title: "Title"
+      year: "2009-2011"
+      desc: "Your description here, **Markdown** is fully supported."
+      image: assets/img/timeline/4.jpg
+      alt:
+      align: right
+  end: "Be Part <br> of Our <br> Story!"
 
 about:
-    title: "About Us"
-    text: "our story"
-    section: about
+  title: "About Us"
+  text: "our story"
+  section: about
 
 values:
-    title: "MCG Core Values"
-    section: values
+  title: "MCG Core Values"
+  section: values
 
 process:
-    title: "MCG Process"
-    section: process
+  title: "MCG Process"
+  section: process
 
 approach:
-    title: "MCG Approach"
-    section: approach
+  title: "MCG Approach"
+  section: approach
 
 clients:
-    section: clients
-    title: "Who MCG Helps"
-    # max-height: 100px
-    # horizontal-scrolling: "" #"yes/no"
-    # list:
-    #   - title: "envato"
-    #     url: https://github.com/raviriley/agency-jekyll-theme
-    #     logo: assets/img/clients/envato.jpg
-    #   - title: "designmodo"
-    #     url: https://github.com/raviriley/agency-jekyll-theme
-    #     logo: assets/img/clients/designmodo.jpg
-    #   - title: "themeforest"
-    #     url: https://github.com/raviriley/agency-jekyll-theme
-    #     logo: assets/img/clients/themeforest.jpg
-    #   - title: "Creative Market"
-    #     url: https://github.com/raviriley/agency-jekyll-theme
-    #     logo: assets/img/clients/creative-market.jpg
-    
+  section: clients
+  title: "What Our Clients Say"
+  quotes:
+    - sizzle: “Joe was right sized for us. He had the technical know-how, experience, and ag-based business acumen to get us where we needed to go.
+      body: He truly wanted to work with us, behaved like an extension of our team, was an exceptional communicator, and brought positivity to the hard work of integration. This is not just a job for Joe – he loves what he does. The process works. Joe set us up for success, held us accountable, and I would recommend him without hesitation.”
+      byline: Mac Ehrhardt, President & Owner of Albert Lea Seed
+
+    - sizzle: “Joe's approach was not just a success, but transformational for the organization.
+      body: His impact was apparent as various senior leaders reached out to him for informal counsel or direct support when struggling to drive strategy. With experience across a wide variety of company sizes, he has a unique talent to pragmatically bring big company practices to life in smaller entities. Throughout the project, Joe maintained a steady focus on delivering results and value above any personal agenda or benefit."
+      byline: Scott Graham, Chief Operating Officer of Hilmar Cheese Company
+
+    - sizzle: “Joe challenged us to look differently at our business and enabled us to build stronger conviction in the direction we needed to grow and capabilities we needed to develop.
+      body: While our project focused on driving improvements in our operational performance, Joe's impact was far greater and essential to successfully delivering on a strategic realignment of our operating model. His leadership was instrumental to a number of business imperatives including our process ownership strategy, rationalizing our asset footprint, and making structural changes to the organization.”
+      byline: Andres C, Chief Executive Officer
+  # max-height: 100px
+  # horizontal-scrolling: "" #"yes/no"
+  # list:
+  #   - title: "envato"
+  #     url: https://github.com/raviriley/agency-jekyll-theme
+  #     logo: assets/img/clients/envato.jpg
+  #   - title: "designmodo"
+  #     url: https://github.com/raviriley/agency-jekyll-theme
+  #     logo: assets/img/clients/designmodo.jpg
+  #   - title: "themeforest"
+  #     url: https://github.com/raviriley/agency-jekyll-theme
+  #     logo: assets/img/clients/themeforest.jpg
+  #   - title: "Creative Market"
+  #     url: https://github.com/raviriley/agency-jekyll-theme
+  #     logo: assets/img/clients/creative-market.jpg
+
 team:
-    title: "Meet Joe"
-    text:
-    subtext: "Over more than two decades, I have had the good fortune to build a challenging and diversified career in agribusiness with experiences in management consulting, plant operations, process improvement, internal process control auditing, global risk and assurance.
-Most recently from 2008 to 2021, I held senior roles at Cargill, Inc., a privately held firm serving
-food, agriculture, financial, and industrial customers with more than 1,200 facilities across nearly
-70 countries.
-I hold a bachelor’s in political science specializing in economic development, and a master’s in organization development, from the
-University of Minnesota, Twin Cities."
-    aboutMcg: "I founded Mosher Consulting Group on the operating thesis that extending access to strategy
-execution advisory services beyond large firms and multinationals addresses an unmet need in
-the market.
-Small- and middle-market businesses are essential to a growing and prosperous U.S. economy,
-yet they disproportionately suffer from economic slowdowns and downturns. The Mosher Consulting Group is my commitment to supporting the sustainable growth and success of this sector of the economy."
-    section: team
-    people:
-      - name: "Joe Mosher"
-        role: "Founder & Principal Advisor"
-        image: assets/img/team/joe_headshot.jpg
-        social:
-          - url: https://twitter.com/MosherCG
-            icon: fab fa-twitter
-          - url: 
-            icon: fab fa-facebook-f
-          - url: https://www.linkedin.com/in/joemosher
-            icon: fab fa-linkedin-in
-          
+  title: ""
+  text:
+  subtext: |
+    Hi, I'm Joe Mosher, founder of Mosher Consulting Group and <cite>The Integration Pacesetter</cite>. We help food and agribusiness companies scale their business, deliver profitable results, set their people up for future success, all while preserving the core and culture of what your business stands for.
+
+    For more than 15 years, we've been supporting food and agribusiness executives in executing their strategy and realizing their value from their M&A activities. We are hyper focused on the small to middle market food and agribusiness sector — it's what we know and what we love.
+
+    We don't just talk that talk, we walk the walk. We've spent the majority of our careers working within food and agribusiness companies — not as external advisors, but as business operators.
+
+    We've lead strategy execution from a variety of perspectives including:
+  perspectives:
+    - label: Plant Operations
+    - label: Finance
+    - label: Risk & Assurance
+    - label: Process Improvement
+    - label: Organization Effectiveness
+    - label: And Business Transformation
+  aboutMcg: |
+    Because we've been in the business, we know how hard it is to get strategy and M&A execution right. We've been through brutal harvests, major quality and inventory issues, supplier and customer disputes, plant closures, business turnarounds, and challenging acquisitions. We know how tough it is to manage the dual mandate of driving value creation through growth, while ensuring value preservation by defending the existing business.
+
+    Since we are seasoned business leaders — NOT career consultants — we speak from experience, not untested theories.
+
+    That's why privately owned food and agribusiness executives trust Mosher Consulting Group to generate more profits, increase their bottom line, and change the growth trajectory of their business forever.
+
+  section: team
+  people:
+    - name: "Joe Mosher"
+      role: "Founder & Principal Advisor"
+      image: assets/img/team/joe_headshot.jpg
+      social:
+        - url: https://twitter.com/MosherCG
+          icon: fab fa-twitter
+        - url:
+          icon: fab fa-facebook-f
+        - url: https://www.linkedin.com/in/joemosher
+          icon: fab fa-linkedin-in
+
+pacesetter:
+  title: "Integration Pacesetter™"
+  text: Looking to complete your M&amp;A integration with better results in less time and less disruption? Download our white paper to learn more about our proven process, Integration Pacesetter™, and how it can help you dramatically improve your M&amp;A readiness and outcomes.
+  section: pacesetter
+
+core-values:
+  - value: Never ask for trust. Earn it.
+    description: Don't lean on bold promises or the glory of past performance. Focus on the value at large and get to work.
+  - value: Act like an owner.
+    description: Be a steward of the client's businesses by creating value greater than the cost of working together. Behave like a partner without equity.
+  - value: Relentlessly reinvent.
+    description: Commit to lifelong learning and a growth-mindset. You cannot help clients reinvent their businesses if you do not invest in yourself.
+  - value: Invest in relationships.
+    description: Openly share ideas and perspectives. Monetizing every interaction narrows the scope of partnership and myopia starves value creation.
+  - value: Be willing to lose the business.
+    description: Provide a candid, and constructive external perspective, even when it creates discomfort or resistance. Be willing to pay a high cost of candor.
+
 contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    
+  title: "Contact Us"
+  text: "Lorem ipsum or call 123456789"
+  section: contact
+
 footer:
-    legal: "Privacy Policy"
-    social:
-      - url: 
-        icon: "fab fa-twitter"  
-      - url: 
-        icon: "fab fa-facebook-f"
-      - url: 
-        icon: "fab fa-linkedin-in"
-      - url: 
-        icon: "fab fa-github"
-      - url: 
-        icon: "fab fa-instagram"
-
-
-# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
+  legal: "Privacy Policy"
+  social:
+    - url:
+      icon: "fab fa-twitter"
+    - url:
+      icon: "fab fa-facebook-f"
+    - url:
+      icon: "fab fa-linkedin-in"
+    - url:
+      icon: "fab fa-github"
+    - url:
+      icon: "fab fa-instagram"

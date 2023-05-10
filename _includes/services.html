@@ -1,78 +1,20 @@
 <!-- Services -->
-  <section class="page-section" id="{{ site.data.sitetext.services.section | default: "services" }}">
-    <div class="container">
-	
-      <div class="row">
-        <!-- <div class="col-lg-12 text-center"> -->
-        <div class="col-lg-12">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.services.title | default: "Services" }}</h2>
-          <!-- {% if site.data.sitetext.services.text %}
-		      <h3 class="section-subheading text-muted">{{ site.data.sitetext.services.text }}</h3>
-		      {% endif %} -->
-          <p class="section-subheading">
-            The goal is simple: help you better execute your strategy, improve performance, and deliver
-            stronger results. MCG digs in to identify the barriers to strategy execution and builds solutions and plans to
-            achieve breakthrough performance.
-            </p>
-          <p class="section-subheading">
-            We reach the goal following the MCG Way – an integration of our Core Values, Process, and Approach proven to create value and deliver sustainable success.
-          </p>
-        </div>
-      </div>
-	  
-      <!-- TODO these sections could probably be a loop -->
-      <!-- Values -->
-      <div class="row">
-      <!-- {% for service in site.data.sitetext.services.list %}
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-            {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
-          </div>
-      {% endfor %} -->
-        <div class="col-md-4 text-center">
-          <h4 class="service-heading">{{ site.data.sitetext.values.title | default: "Values" }}</h4>
-          <span class="text-center fa-stack fa-8x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-compass" }} fa-stack-1x fa-inverse"></i>
-          </span>
-        </div>
-        <div class="col-md-8">
-          {% include values.html %}
-        </div>
-      </div>
-      <!-- End Values -->
-      <!-- Process -->
-      <div class="row">
-          <div class="col-md-4 text-center">
-            <h4 class="service-heading">{{ site.data.sitetext.process.title | default: "Process" }}</h4>
-            <span class="text-center fa-stack fa-8x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="{{ service.icon | default: "fas fa-cogs" }} fa-stack-1x fa-inverse"></i>
-            </span>
-          </div>
-          <div class="col-md-8">
-            {% include process.html %}
-          </div>
-        </div>
-        <!-- End Process -->
-        <!-- Approach -->
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <h4 class="service-heading">{{ site.data.sitetext.approach.title | default: "Approach" }}</h4>
-            <span class="text-center fa-stack fa-8x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="{{ service.icon | default: "fas fa-list-alt" }} fa-stack-1x fa-inverse"></i>
-            </span>
-          </div>
-          <div class="col-md-8">
-            {% include approach.html %}
-          </div>
-        </div>
-      <!-- End Approach -->
+<section
+  class="page-section pt-0"
+  id="{{ site.data.sitetext.services.section }}"
+>
+  <div class="row justify-content-center pt-5">
+    <div class="col-10">
+      <h2 class="section-heading text-uppercase">
+        {{ site.data.sitetext.services.title | default: "Services" }}
+      </h2>
     </div>
-  </section>
+  </div>
+
+  <!-- Values -->
+  <div class="row justify-content-center mt-0">
+    <div class="col-10">{% include values.html %}</div>
+  </div>
+  <!-- End Values -->
+</section>
 <!-- End Services -->

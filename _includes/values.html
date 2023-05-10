@@ -1,36 +1,15 @@
 <!-- Values -->
 <div class="large">
-  <ol>
-    <li>
-      <strong>
-        Never ask for trust. Earn it.
-      </strong>
-      Do not lean on bold promises or the glory of past performance. Focus on the value at large and get to work.
+  <ul class="list-unstyled">
+    {% for value in site.data.sitetext.core-values %}
+    <!-- TODO get rid of this inline -->
+    <li class="pt-4">
+      <h3 class="h4">
+        <em>{{value.value}}</em>
+      </h3>
+      {{value.description}}
     </li>
-    <li>
-      <strong>
-        Act like an owner.
-      </strong>
-      Be a steward of the client’s businesses by creating value greater than the cost of working together. Behave like a partner without equity.
-    </li>
-    <li>
-      <strong>
-        Relentlessly reinvent.
-      </strong>
-      Commit to lifelong learning and a growth-mindset. You cannot help clients reinvent their businesses if you do not invest in and challenge yourself.
-    </li>
-    <li>
-      <strong>
-        Invest in relationships.
-      </strong>
-      Openly share ideas and perspectives. Monetizing every interaction narrows the scope of partnership and myopia starves value creation.
-    </li>
-    <li>
-      <strong>
-        Be willing to lose the business.
-      </strong>
-      Provide an honest, candid, and constructive external perspective, even when it creates discomfort or resistance. Be willing to pay a high cost of candor.
-    </li>
-  </ol>
+    {% endfor %}
+  </ul>
 </div>
 <!-- End Values -->

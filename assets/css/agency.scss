@@ -31,3 +31,33 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/team.scss";
 @import "layout/contact.scss";
 @import "layout/footer.scss";
+
+// Overrides
+.alert-success {
+  background-color: $white;
+  border-color: $davy-gray;
+}
+
+button.close {
+  padding: 8px 0 8px 16px;
+}
+
+// Classes
+.background-color-gray {
+  background-color: $davy-gray;
+  color: $white;
+}
+
+.background-color-orange {
+  background-color: $safety-orange;
+  color: $white;
+}
+
+.background-color-wheat {
+  background-color: $wheat;
+  color: $davy-gray;
+}
+
+blockquote > * {
+  line-height: 1.5 !important;
+}

@@ -1,45 +1,55 @@
 <!-- Team -->
-<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
-<div class="container">
-  <div class="row">
-	<div class="col-lg-12">
-		{% if site.data.sitetext.team.title %}
-	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
-		{% endif %}
-		{% if site.data.sitetext.team.text %}
-	  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
-		{% endif %}
-	</div>
+<section
+  class="bg-light page-section"
+  id="{{ site.data.sitetext.team.section | default: 'team' }}"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% if site.data.sitetext.team.title %}
+        <h2 class="section-heading text-uppercase">
+          {{ site.data.sitetext.team.title }}
+        </h2>
+        {% endif %} {% if site.data.sitetext.team.text %}
+        <h3 class="section-subheading text-muted">
+          {{ site.data.sitetext.team.text }}
+        </h3>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row">
+      <!-- {% for person in site.data.sitetext.team.people %} -->
+      <div class="col-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="" />
+          <h4>{{ person.name }}</h4>
+          <p class="text-muted">{{ person.role }}</p>
+          <ul class="list-inline social-buttons">
+            {% for network in person.social %} {% if network.url %}
+            <li class="list-inline-item">
+              <a href="{{ network.url }}">
+                <i class="{{ network.icon }}"></i>
+              </a>
+            </li>
+            {% endif %} {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <!-- {% endfor %} -->
+      <div class="col-8 mx-auto">
+        <p class="large text-muted">
+          {{ site.data.sitetext.team.subtext | markdownify }}
+        </p>
+        <ul>
+          {% for perspective in site.data.sitetext.team.perspectives %}
+          <li>{{perspective.label}}</li>
+          {% endfor %}
+        </ul>
+        <p class="large text-muted">
+          {{ site.data.sitetext.team.aboutMcg | markdownify }}
+        </p>
+      </div>
+    </div>
   </div>
-  <div class="row">
-  <!-- {% for person in site.data.sitetext.team.people %} -->
-	<!-- TODO add back loop if we add more staff -->
-	<div class="col-md-4">
-	  <div class="team-member">
-		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
-		<h4>{{ person.name }}</h4>
-		<p class="text-muted">{{ person.role }}</p>
-		<ul class="list-inline social-buttons">
-		{% for network in person.social %}
-			{% if network.url %}
-			<li class="list-inline-item">
-				<a href="{{ network.url }}">
-					<i class="{{ network.icon }}"></i>
-				</a>
-			</li>
-			{% endif %}
-		{% endfor %}
-		</ul>
-	  </div>
-	</div>
-  <!-- {% endfor %} -->
-  <!-- </div>
-  <div class="row"> -->
-	<div class="col-md-8 mx-auto">
-	  <p class="large text-muted">{{ site.data.sitetext.team.subtext | markdownify }}</p>
-	  <p class="large text-muted">{{ site.data.sitetext.team.aboutMcg | markdownify }}</p>
-	</div>
-  </div>
-</div>
 </section>
 <!-- End Team -->

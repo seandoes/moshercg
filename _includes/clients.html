@@ -1,39 +1,49 @@
 <!-- Clients -->
-  <section class="page-section" id="{{ site.data.sitetext.clients.section | default: "clients" }}">
-    <div class="container">
-      <!-- <div class="row" {% if site.data.sitetext.clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}> -->
-	  <!-- {% for client in site.data.sitetext.clients.list %}
-        <div class="col-md-3 col-sm-6">
-          <a href="{{ client.url }}">
-            <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.clients.max-height | default: "100px" }}">
-          </a>
+<section
+  class="page-section py-0"
+  id="{{ site.data.sitetext.clients.section | default: 'clients' }}"
+>
+  <div class="row justify-content-center background-color-wheat pt-5 pb-4">
+    <div class="col-10">
+      <h2 class="section-heading text-uppercase">
+        {{ site.data.sitetext.clients.title | default: "Clients" }}
+      </h2>
+      <div class="row">
+        {% for quote in site.data.sitetext.clients.quotes %}
+        <div class="col-4">
+          <figure>
+            <blockquote>
+              <h3 class="h6">
+                <strong>{{quote.sizzle}}</strong>
+              </h3>
+              <p>{{quote.body}}</p>
+            </blockquote>
+            <figcaption><em>{{quote.byline}}</em></figcaption>
+          </figure>
         </div>
-	  {% endfor %} -->
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="container">
+    <h2 class="section-heading text-uppercase">How It All Works</h2>
     <div class="row">
-      <div class="col-lg-12">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.clients.title | default: "Clients" }}</h2>
-        MCG serves small- and middle-market businesses across multiple industries including agribusiness, food processing and production, animal feed, and manufacturing.
+      <div class="col-8">
+        <h3 class="h6">Step 1. Book a call</h3>
+        <h3 class="h6">
+          Step 2. Create your very own
+          <cite>Integration Readiness Roadmap</cite>
+        </h3>
+        <h3 class="h6">
+          Step 3. Execute your strategy, grow the business, and deliver superior
+          results
+        </h3>
+      </div>
+      <div class="col-4 text-center my-auto">
+        {% include book_button.html %}
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4 text-center">
-        <span class="text-center fa-stack fa-8x">
-          <i class="fas fa-circle fa-stack-2x text-primary"></i>
-          <i class="{{ service.icon | default: "fas fa-user-check" }} fa-stack-1x fa-inverse"></i>
-        </span>
-      </div>
-      <div class="col-md-8">
-        Successful clients are those share MCG’s values and exhibit the following characteristics:
-        <ul>
-          <li>They have the learning and strategic agility to try new ways of working.</li>
-          <li>They have an adaptive organizational culture and demonstrated appetite for change.</li>
-          <li>They have their sights set on growth and are willing to invest in capabilities to fuel it.</li>
-          <li>They have decision rights and are willing to use them.</li>
-          <li>They have a bias for action and are willing to take calculated risks.</li>
-          <li>They have the confidence to trust the process: build pragmatically, apply rigorously, and challenge productively.</li>
-        </ul>
-      </div>
-    </div>
-      <!-- </div> -->
-    </div>
-  </section>
+  </div>
+</section>

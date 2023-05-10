@@ -1,0 +1,40 @@
+<!-- Why -->
+  <section class="page-section py-0" id="{{ site.data.sitetext.why.section | default: 'why' }}">
+    {% for section in site.data.sitetext.why.list %}
+    {% capture thecycle %}{% cycle 'order-0', 'order-2' %}{% endcapture %}
+    <div class="row m-0">
+      <div class="col-6 p-4 d-flex flex-column justify-content-center {{thecycle}}">
+        {% if forloop.first %}
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.why.title | default: "Why" }}</h2>
+        {% endif %}
+        <p class="section-subheading">
+          {{section.copy | markdownify}}
+        </p>
+        {%- if section.numbered -%}
+        <ol>
+        {%- else -%}
+        <ul>
+        {%- endif -%}
+          {% for item in section.list %}
+          <li>{{item.point}}</li>
+          {% endfor %}
+        {%- if section.numbered -%}
+        </ol>
+        {%- else -%}
+        </ul>
+        {%- endif -%}
+      </div>
+      <div class="col-6 p-0 order-1"><img class="img-fluid h-100" src="{{section.image}}" alt=""></div>
+    </div>
+    {% endfor %}
+
+    <!-- <div class="row justify-content-center pt-4"> -->
+      <!-- <div class="col-7"> -->
+        <!-- Learn more about what makes Mosher Consulting Group unique or book an Integration Readiness Roadmap Call with us today here. -->
+      <!-- </div> -->
+      <!-- <div class="col-3 text-center my-auto"> -->
+        <!-- include book_button.html -->
+      <!-- </div> -->
+    <!-- </div> -->
+  </section>
+<!-- End Why -->

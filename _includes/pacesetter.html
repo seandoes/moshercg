@@ -1,0 +1,21 @@
+<!-- Pacesetter -->
+<section
+  class="page-section pb-0"
+  id="{{ site.data.sitetext.pacesetter.section | default: 'pacesetter' }}"
+>
+  <div class="row justify-content-center py-5 background-color-orange">
+    <div class="col-10">
+      <h2 class="section-heading text-uppercase">
+        {{ site.data.sitetext.pacesetter.title | default: "Pacesetter" |
+        markdownify }}
+      </h2>
+    </div>
+    <div class="col-10">
+      <p class="section-subheading">
+        {{site.data.sitetext.pacesetter.text | markdownify}}
+      </p>
+    </div>
+  </div>
+  <div>{% include contact.html %}</div>
+</section>
+<!-- End Pacesetter -->

@@ -1,21 +1,12 @@
 nav:
-  - title: "The MCG Way"
-    section: services
+  - title: "Why Work with Us"
+    section: why
 
-  - title: "Who MCG Helps"
-    section: clients
+  - title: "Integration Pacesetter™"
+    section: pacesetter
 
-  # - title: "Values"
-  #   section: values
-    
-  # - title: "About"
-  #   section: about
-
-  - title: "Meet Joe"
+  - title: "Who We Are"
     section: team
 
-  - title: "Contact"
-    section: contact
-
-  # - title: "Theme Source"
-  #   url: https://github.com/raviriley/agency-jekyll-theme/
+  - title: "Client Success"
+    section: clients

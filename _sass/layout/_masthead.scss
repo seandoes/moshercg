@@ -2,10 +2,11 @@
 header.masthead {
   text-align: center;
   color: white;
+  color: #f5e0b7;
   background-image: url("#{$header-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center 25%;
   background-size: cover;
   .intro-text {
     padding-top: 150px;
@@ -16,6 +17,14 @@ header.masthead {
       line-height: 22px;
       margin-bottom: 25px;
       @include serif-font;
+      bottom: -200px;
+      position: relative;
+      backdrop-filter: blur(8px) brightness(0.5);
+      padding: 8px;
+      border: 2px solid $wheat;
+      p {
+        margin-bottom: 0;
+      }
     }
     .intro-heading {
       padding: 20px;
@@ -39,7 +48,7 @@ header.masthead {
     }
   }
 }
-@media(min-width:768px) {
+@media (min-width: 768px) {
   header.masthead {
     .intro-text {
       // padding-top: 300px;
