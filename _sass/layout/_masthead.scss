@@ -17,7 +17,7 @@ header.masthead {
       line-height: 22px;
       margin-bottom: 25px;
       @include serif-font;
-      bottom: -200px;
+
       position: relative;
       backdrop-filter: blur(8px) brightness(0.5);
       padding: 8px;
@@ -54,6 +54,7 @@ header.masthead {
       // padding-top: 300px;
       padding-bottom: 200px;
       .intro-lead-in {
+        bottom: -200px;
         font-size: 44px;
         // font-style: italic;
         // line-height: 40px;
