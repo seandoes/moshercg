@@ -1,9 +1,9 @@
 <!-- Why -->
   <section class="page-section py-0" id="{{ site.data.sitetext.why.section | default: 'why' }}">
     {% for section in site.data.sitetext.why.list %}
-    {% capture thecycle %}{% cycle 'order-0', 'order-2' %}{% endcapture %}
+    {% capture thecycle %}{% cycle 'order-sm-0', 'order-sm-2' %}{% endcapture %}
     <div class="row m-0">
-      <div class="col-6 p-4 d-flex flex-column justify-content-center {{thecycle}}">
+      <div class="col-xs-12 col-sm-6 p-4 d-flex flex-column justify-content-center {{thecycle}}">
         {% if forloop.first %}
           <h2 class="section-heading text-uppercase">{{ site.data.sitetext.why.title | default: "Why" }}</h2>
         {% endif %}
@@ -24,7 +24,7 @@
         </ul>
         {%- endif -%}
       </div>
-      <div class="col-6 p-0 order-1"><img class="img-fluid h-100" src="{{section.image}}" alt=""></div>
+      <div class="col-xs-12 col-sm-6 p-0 order-sm-1"><img class="img-fluid h-100" src="{{section.image}}" alt=""></div>
     </div>
     {% endfor %}
 

@@ -3,14 +3,14 @@
   class="page-section py-0"
   id="{{ site.data.sitetext.clients.section | default: 'clients' }}"
 >
-  <div class="row justify-content-center background-color-wheat pt-5 pb-4">
+  <div class="row m-0 justify-content-center background-color-wheat pt-5 pb-4">
     <div class="col-10">
       <h2 class="section-heading text-uppercase">
         {{ site.data.sitetext.clients.title | default: "Clients" }}
       </h2>
       <div class="row">
         {% for quote in site.data.sitetext.clients.quotes %}
-        <div class="col-4">
+        <div class="col-xs-12 col-sm-4">
           <figure>
             <blockquote>
               <h3 class="h6">
@@ -30,7 +30,7 @@
   <div class="container">
     <h2 class="section-heading text-uppercase">How It All Works</h2>
     <div class="row">
-      <div class="col-8">
+      <div class="col-xs-12 col-sm-8">
         <h3 class="h6">Step 1. Book a call</h3>
         <h3 class="h6">
           Step 2. Create your very own
@@ -41,7 +41,7 @@
           results
         </h3>
       </div>
-      <div class="col-4 text-center my-auto">
+      <div class="col-xs-12 col-sm-4 text-center my-auto">
         {% include book_button.html %}
       </div>
     </div>
