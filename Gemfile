@@ -4,6 +4,9 @@ source "https://rubygems.org"
 # If you do not want to use GitHub Pages, comment out the line below, then run bundle update.
 #gem "github-pages", group: :jekyll_plugins
 
+# https://github.com/jekyll/jekyll/issues/9233
+gem "jekyll", github: "jekyll/jekyll", ref: "refs/pull/9248/head"
+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   # gem "jekyll-remote-theme"
