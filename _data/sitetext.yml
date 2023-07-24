@@ -5,33 +5,33 @@ why:
   title: "Why Work with Us?"
   section: why
   list:
-    - copy: "As experienced M&A integration veterans, we help food and agribusiness companies successfully execute strategy to:"
+    - copy: "As seasoned agribusiness veterans, we help you successfully execute strategy to:"
       image: assets/img/6-Explanation Paragraph.png
       list:
-        - point: Achieve growth objectives and lead the market
-        - point: Create greater trust and alignment among their leadership team
-        - point: Set their people up for future success
-        - point: Preserve company core values and culture during periods of high growth
-        - point: Be a respected member of their industry and community
+        - point: Achieve growth objectives and market leadership
+        - point: Foster greater leadership team trust and alignment
+        - point: Position your people for long-term success
+        - point: Preserve core values and culture amid rapid growth
+        - point: Enhance your industry and community reputation
     - copy: "We handle the entire process. From:"
       image: assets/img/Explanation Paragraph (2).png
       numbered: true
       list:
         - point: Design of your integration operating model and performance metrics
-        - point: Clarity around customer requirements for integration success
+        - point: Clarity around customer success requirements
         - point: Definition of your Minimum Viable Integration
-        - point: Development of your integration plan (objectives, tasks, resources, timelines)
-        - point: Tech-enabled integration plan project management and real-time monitoring dashboards
+        - point: Development of your integration plan
+        - point: Tech-enabled integration project management and real-time dashboards
     - copy: |
-        What separates us is that we understand what it's like to live within the four walls of a business. We know what it's like to see all the opportunities available yet struggle to execute as they seem out of reach. We know you need action, not theory or tactics from a consultant.
+        What separates us is that we understand what it's like to live within the four walls of the business. We know what it's like to see the opportunities available yet struggle to execute. We know you need action, not theory or tactics.
 
-        Not only do we help with your M&A integration, we help you drive growth by:
+        We offer not only M&amp;A integration services, but also growth enablement strategies such as:
       image: assets/img/3-Guide.png
       list:
-        - point: Transforming your firm's operating model
-        - point: Highlighting where to improve your business process effectiveness
-        - point: Identifying opportunities to enhance performance through organizational design
-        - point: Developing processes to ensure your investment planning reflects your strategy
+        - point: Transformation of your firm&#39;s operating model
+        - point: Enhancement of business process effectiveness
+        - point: Performance boosts through organizational design
+        - point: Investment planning aligned with your strategy
         - point: Building the capability to know you are doing the right projects and doing them the right way
 
 services:
@@ -137,11 +137,11 @@ team:
   title: ""
   text:
   subtext: |
-    Hi, I'm Joe Mosher, founder of Mosher Consulting Group and <cite>The Integration Pacesetter</cite>. We help food and agribusiness companies scale their business, deliver profitable results, set their people up for future success, all while preserving the core and culture of what your business stands for.
+    Hi, I'm Joe Mosher, founder of Mosher Consulting Group and <cite>The Integration Pacesetter</cite>™. We help food and agribusiness companies grow their businesses, deliver profitable results, and setting their people up for future success.
 
-    For more than 15 years, we've been supporting food and agribusiness executives in executing their strategy and realizing their value from their M&A activities. We are hyper focused on the small to middle market food and agribusiness sector — it's what we know and what we love.
+    For more than 15 years, we've been supporting executives in executing their strategy and realizing value from their M&amp;A activities. We are hyper focused on the small to middle market food and agribusiness sector — it's what we know and what we love.
 
-    We don't just talk that talk, we walk the walk. We've spent the majority of our careers working within food and agribusiness companies — not as external advisors, but as business operators.
+    We don't just talk the talk, we walk the walk. We've spent the majority of our careers working within food and agribusiness— not as external advisors, but as business operators.
 
     We've lead strategy execution from a variety of perspectives including:
   perspectives:
@@ -150,14 +150,13 @@ team:
     - label: Risk & Assurance
     - label: Process Improvement
     - label: Organization Effectiveness
-    - label: And Business Transformation
+    - label: Business and Functional Transformation
   aboutMcg: |
-    Because we've been in the business, we know how hard it is to get strategy and M&A execution right. We've been through brutal harvests, major quality and inventory issues, supplier and customer disputes, plant closures, business turnarounds, and challenging acquisitions. We know how tough it is to manage the dual mandate of driving value creation through growth, while ensuring value preservation by defending the existing business.
+    Because we've been in the business, we know how hard it is to get strategy and M&amp;A execution right. We've been through brutal harvests, major quality and inventory issues, supplier and customer disputes, plant closures, business turnarounds, and challenging acquisitions. We know how tough it is to manage the dual mandate of driving value creation through growth, while ensuring value preservation by defending the existing business.
 
     Since we are seasoned business leaders — NOT career consultants — we speak from experience, not untested theories.
 
-    That's why privately owned food and agribusiness executives trust Mosher Consulting Group to generate more profits, increase their bottom line, and change the growth trajectory of their business forever.
-
+    That's why food and agribusiness executives trust Mosher Consulting Group to help them become more productive, improve their bottom line, and change the growth trajectory of their business forever.
   section: team
   people:
     - name: "Joe Mosher"
