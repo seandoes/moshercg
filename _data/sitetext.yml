@@ -163,7 +163,7 @@ team:
       role: "Founder & Principal Advisor"
       image: assets/img/team/joe_headshot.jpg
       social:
-        - url: https://twitter.com/MosherCG
+        - url:
           icon: fab fa-twitter
         - url:
           icon: fab fa-facebook-f
