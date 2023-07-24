@@ -169,6 +169,16 @@ team:
           icon: fab fa-facebook-f
         - url: https://www.linkedin.com/in/joemosher
           icon: fab fa-linkedin-in
+  media:
+    - name: "The Pacesetter Pod"
+      image: assets/img/pacesetter_pod.png
+      social:
+        - url: https://podcasts.apple.com/us/podcast/the-pacesetter-pod/id1674259917
+          icon: fab fa-brands fa-apple
+        - url: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5saWJzeW4uY29tLzQ2MjczOC9yc3M
+          icon: fab fa-brands fa-google-play
+        - url: https://open.spotify.com/show/1Gt370WHTRU2hGATa6CUGp
+          icon: fab fa-brands fa-spotify
 
 pacesetter:
   title: "Integration Pacesetter™"

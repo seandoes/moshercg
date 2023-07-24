@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="row">
-      <!-- {% for person in site.data.sitetext.team.people %} -->
+      {% for person in site.data.sitetext.team.people %}
       <div class="col-xs-12 col-sm-4">
         <div class="team-member">
           <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="" />
@@ -27,15 +27,31 @@
           <ul class="list-inline social-buttons">
             {% for network in person.social %} {% if network.url %}
             <li class="list-inline-item">
-              <a href="{{ network.url }}">
+              <a target="_blank" href="{{ network.url }}">
                 <i class="{{ network.icon }}"></i>
               </a>
             </li>
             {% endif %} {% endfor %}
           </ul>
         </div>
+        {% for person in site.data.sitetext.team.media %}
+        <div class="team-member">
+          <img class="mx-auto" src="{{ person.image }}" alt="" />
+          <h4>{{ person.name }}</h4>
+          <p class="text-muted">{{ person.role }}</p>
+          <ul class="list-inline social-buttons">
+            {% for network in person.social %} {% if network.url %}
+            <li class="list-inline-item">
+              <a target="_blank" href="{{ network.url }}">
+                <i class="{{ network.icon }}"></i>
+              </a>
+            </li>
+            {% endif %} {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
       </div>
-      <!-- {% endfor %} -->
+      {% endfor %}
       <div class="col-xs-12 col-sm-8 mx-auto">
         <p class="large text-muted">
           {{ site.data.sitetext.team.subtext | markdownify }}
